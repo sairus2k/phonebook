@@ -65,7 +65,7 @@ module.exports = {
     filename: '[name]-[hash].js'
   },
   entry: {
-    app: `./${conf.path.src('index')}`,
+    app: ['bootstrap-loader/extractStyles', `./${conf.path.src('index')}`],
     vendor: Object.keys(pkg.dependencies)
   }
 };

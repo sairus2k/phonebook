@@ -1,0 +1,43 @@
+{
+  "bootstrapVersion": 4,
+  "useFlexbox": true,
+  "appStyles": "./src/index.scss",
+  "styleLoaders": [
+    "style",
+    "css?minimize",
+    "postcss",
+    "sass"
+  ],
+  "styles": {
+    "mixins": true,
+    "normalize": true,
+    "print": false,
+    "reboot": true,
+    "type": true,
+    "images": true,
+    "code": false,
+    "grid": true,
+    "tables": false,
+    "forms": true,
+    "buttons": false,
+    "animation": false,
+    "dropdown": false,
+    "button-group": false,
+    "input-group": false,
+    "custom-forms": false,
+    "nav": false,
+    "navbar": false,
+    "card": false,
+    "breadcrumb": false,
+    "pagination": false,
+    "jumbotron": false,
+    "alert": false,
+    "progress": false,
+    "media": false,
+    "list-group": false,
+    "responsive-embed": false,
+    "close": false,
+    "tags": false
+  },
+  "scripts": false
+}
