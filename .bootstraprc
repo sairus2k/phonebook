@@ -1,4 +1,5 @@
 {
+  "loglevel": "debug",
   "bootstrapVersion": 4,
   "useFlexbox": true,
   "appStyles": "./src/index.scss",
@@ -19,7 +20,7 @@
     "grid": true,
     "tables": false,
     "forms": true,
-    "buttons": false,
+    "buttons": true,
     "animation": false,
     "dropdown": false,
     "button-group": false,
@@ -34,10 +35,11 @@
     "alert": false,
     "progress": false,
     "media": false,
-    "list-group": false,
+    "list-group": true,
     "responsive-embed": false,
     "close": false,
-    "tags": false
+    "tags": false,
+    "utilities": true
   },
   "scripts": false
 }

@@ -1,8 +1,7 @@
 class homeController {
-  constructor() {
+  /** @ngInject */constructor(Contacts) {
+    this.contacts = Contacts.getContacts();
     this.name = 'home';
-  }
-  $onInit() {
   }
 }
 
